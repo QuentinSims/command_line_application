@@ -13,6 +13,19 @@ Use a BufReader to read and display the first line of the file.
 Example Output
 Given a file named example.txt:
 
+Step 2: Handle Regular Expressions
+Accept User Input:
+
+Prompt the user to enter a regular expression pattern (e.g., println!("Enter your regex pattern:");).
+Validate the input to confirm it is a valid regex.
+Validate the Regular Expression:
+
+Use the regex crate to parse the input.
+If the input is invalid, display an error message and prompt the user to re-enter the pattern.
+Confirm Regex Validation:
+
+Once validated, display a confirmation message to the user.
+
 mathematica
 Copy code
 First Line: This is the first line of the file.
